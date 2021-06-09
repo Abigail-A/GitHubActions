@@ -9,6 +9,15 @@
 	<name>HelloWorld Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
+<servers>
+	<server>
+		<id>TomcatServer</id>
+		<username>tomcat</username>
+		<password>12345</password>
+	</server>	
+  </servers> 
+ 
+
 	<properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
