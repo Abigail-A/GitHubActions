@@ -9,15 +9,6 @@
 	<name>HelloWorld Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
-<servers>
-	<server>
-		<id>TomcatServer</id>
-		<username>admin</username>
-		<password>12345</password>
-	</server>	
-  </servers> 
- 
-
 	<properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -77,6 +68,7 @@
 					<url>http://localhost:7007/manager/text</url>
 					<server>TomcatServer</server>
 					<path>/SampleWebApp</path>
+					
 				</configuration>
 			</plugin>
 			<!--Weblogic Deploy -->
