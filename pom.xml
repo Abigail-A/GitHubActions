@@ -84,7 +84,7 @@
 					<action>deploy</action>
 					<remote>false</remote>
 					<verbose>true</verbose>
-					<source>C:/GitHub/GitHubActions/_work/GitHubActions/GitHubActions/target/HelloWorld.war</source>
+					<source>C:\GitHub\GitHubActions\_work\GitHubActions\GitHubActions\target\HelloWorld.war</source>
 					<name>SpringApp</name>
 				</configuration>
 				<!-- <executions> <execution> <phase>install</phase> <goals> <goal>deploy</goal> 
